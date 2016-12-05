@@ -38,12 +38,12 @@ a {
 {/literal}
 </head>
 <body bgcolor="{$STYLE.BGCOLOR2}">
-<p><span class="title">{php} xl('SOAP','e'); {/php}</span></p>
+<p><span class="title">{php} xl('SOAP Form','e'); {/php}</span></p>
 <form name="soap" method="post" action="{$FORM_ACTION}/interface/forms/soap/save.php"
  onsubmit="return top.restoreSession()">
 <table>
 	<tr>
-		<td align="left">{php} xl('Subjective','e'); {/php}</td>
+		<td align="left">{php} xl('Subject','e'); {/php}</td>
 		<td width="90%">
 			<textarea name="subjective" cols="60" rows="6">{$data->get_subjective()}</textarea>
 		</td>
